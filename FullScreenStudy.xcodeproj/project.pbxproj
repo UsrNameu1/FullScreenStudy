@@ -19,6 +19,8 @@
 		1470E07419B0E32A00510B4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1470E05C19B0E32A00510B4B /* UIKit.framework */; };
 		1470E07C19B0E32A00510B4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1470E07A19B0E32A00510B4B /* InfoPlist.strings */; };
 		1470E07E19B0E32A00510B4B /* FullScreenStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1470E07D19B0E32A00510B4B /* FullScreenStudyTests.m */; };
+		1470E08919B0E35B00510B4B /* MYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1470E08819B0E35B00510B4B /* MYViewController.m */; };
+		1470E08B19B0E36D00510B4B /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1470E08A19B0E36D00510B4B /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		1470E07919B0E32A00510B4B /* FullScreenStudyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FullScreenStudyTests-Info.plist"; sourceTree = "<group>"; };
 		1470E07B19B0E32A00510B4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1470E07D19B0E32A00510B4B /* FullScreenStudyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FullScreenStudyTests.m; sourceTree = "<group>"; };
+		1470E08719B0E35B00510B4B /* MYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYViewController.h; sourceTree = "<group>"; };
+		1470E08819B0E35B00510B4B /* MYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYViewController.m; sourceTree = "<group>"; };
+		1470E08A19B0E36D00510B4B /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				1470E06719B0E32A00510B4B /* MYAppDelegate.h */,
 				1470E06819B0E32A00510B4B /* MYAppDelegate.m */,
+				1470E08719B0E35B00510B4B /* MYViewController.h */,
+				1470E08819B0E35B00510B4B /* MYViewController.m */,
+				1470E08A19B0E36D00510B4B /* Storyboard.storyboard */,
 				1470E06A19B0E32A00510B4B /* Images.xcassets */,
 				1470E05F19B0E32A00510B4B /* Supporting Files */,
 			);
@@ -222,6 +230,7 @@
 			files = (
 				1470E06319B0E32A00510B4B /* InfoPlist.strings in Resources */,
 				1470E06B19B0E32A00510B4B /* Images.xcassets in Resources */,
+				1470E08B19B0E36D00510B4B /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1470E08919B0E35B00510B4B /* MYViewController.m in Sources */,
 				1470E06919B0E32A00510B4B /* MYAppDelegate.m in Sources */,
 				1470E06519B0E32A00510B4B /* main.m in Sources */,
 			);
